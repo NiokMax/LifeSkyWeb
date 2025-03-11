@@ -3,148 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LifeSky Network - Home</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>GlacierMC - Premium Minecraft Lifesteal Server</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <meta property="og:title" content="LifeSky Network - Cracked Minecraft Server">
-    <meta property="og:description" content="Join LifeSky Network's cracked Minecraft server featuring Lifesteal, GemSteal, and SoulSteal mechanics. Experience intense Duels PvP and innovative survival SMP gameplay.">
-    <meta property="og:image" content="https://lifesky.fun/images/logo.png">
-    <meta property="og:url" content="https://lifesky.fun">
+    <meta name="description" content="GlacierMC - Premium Minecraft Lifesteal Server with custom textures and unique gameplay mechanics. Join our survival experience today!">
+    <meta property="og:title" content="GlacierMC">
+    <meta property="og:description" content="Join GlacierMC Cracked Minecraft server featuring Lifesteal With Many Cool Features.">
+    <meta property="og:image" content="https://glaciermc.fun/images/logo.jpg">
+    <meta property="og:url" content="https://glaciermc.fun">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <meta name="keywords" content="LifeSky Network, lifesteal smp, gemsteal, soulsteal, all in one smp, minecraft smp, cracked server, skyduels pro, minecraft duels, survival server, custom gamemodes, pvp server, minecraft survival">
-    <meta name="description" content="Experience the ultimate all-in-one SMP with LifeSky Network's unique combination of Lifesteal, GemSteal, and SoulSteal mechanics. Join our cracked Minecraft server for intense Duels PvP battles and innovative survival gameplay.">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- Link Embed -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="GlacierMC">
+    <meta name="twitter:title" content="GlacierMC - Premium Minecraft Lifesteal Server">
+    <meta name="twitter:description" content="Join GlacierMC Cracked Minecraft server featuring Lifesteal With Many Cool Features.">
+    <meta name="twitter:image" content="https://glaciermc.fun/images/logo.jpg">
+    <meta name="twitter:url" content="https://glaciermc.fun">
 </head>
 <body>
-    <!-- Universal Navbar -->
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="/" class="brand">
-                <img src="images/logo.png" alt="LifeSky Network Logo" class="logo">
-                LifeSky Network
-            </a>
-            <div class="nav-toggle" id="navToggle">
+            <a href="index.html" class="logo">GlacierMC</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li class="dropdown">
+                    <a href="#">More <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="policy.html">Policy</a>
+                        <a href="rules.html">Rules</a>
+                        <a href="updates.html">Updates</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="shop-main.html"><i class="fas fa-shopping-cart"></i> Shop</a></li>
-                <li><a href="support.html"><i class="fas fa-life-ring"></i> Support</a></li>
-                <li><a href="updates.html"><i class="fas fa-bullhorn"></i> Updates</a></li>
-                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
-            </ul>
         </div>
     </nav>
 
     <!-- Page Content -->
     <main class="container">
         <section class="hero">
-            <h1>Welcome to LifeSky Network</h1>
-            <p>Experience Minecraft like never before with our unique gamemodes!</p>
-            <div class="cta-buttons">
-                <a href="index.html" class="btn">Get Started</a>
-                <a href="updates.html" class="btn btn-outline">Latest Updates</a>
+            <div class="hero-content">
+                <div class="logo-container">
+                    <img src="images/logo.jpg" alt="GlacierMC Logo" class="hero-logo">
+                </div>
+                <h1>Welcome to GlacierMC</h1>
+                <p>Your adventure begins here! Join us for an unparalleled Minecraft Lifesteal experience.</p>
+                <div class="server-ip">
+                    <code>play.glaciermc.fun</code>
+                    <button class="cta-button" onclick="copyIP()">Copy IP</button>
+                </div>
+                <div class="action-buttons">
+                    <a href="shop.html" class="cta-button">Explore the Shop</a>
+                    <a href="support.html" class="cta-button">Get Support</a>
+                </div>
             </div>
         </section>
 
-        <section class="gamemodes">
-            <div class="gamemode-card">
-                <img src="images/duels.jpg" alt="Duels">
-                <h3>SkyDuels Pro</h3>
-                <p>Competitive PvP battles with ranked matches and exclusive rewards</p>
-            </div>
-            <div class="gamemode-card">
-                <img src="images/survival.jpg" alt="Survival">
-                <h3>LifeSteal Fusion</h3>
-                <p>Combined Lifesteal, GemSteal, and SoulSteal mechanics with custom textures</p>
-            </div>
-        </section>
-
-        <section class="server-stats">
-            <div class="stat-card">
-                <i class="fas fa-users"></i>
-                <h3><span class="count" data-target="1524">0</span>+ Players Online</h3>
-                <p>Join our thriving community</p>
-            </div>
-            <div class="stat-card">
-                <i class="fas fa-trophy"></i>
-                <h3><span class="count" data-target="8560">0</span>+ Matches Played</h3>
-                <p>Competitive battles daily</p>
-            </div>
-            <div class="stat-card">
-                <i class="fas fa-shield-alt"></i>
-                <h3>99.9% Uptime</h3>
-                <p>Reliable gaming experience</p>
-            </div>
+        <section class="about">
+            <h2>About GlacierMC</h2>
+            <p>GlacierMC is a premium Minecraft server offering a unique Lifesteal experience. Our custom-coded mechanics and exclusive textures provide players with an immersive gameplay experience. Join us to explore new biomes, engage in thrilling battles, and enjoy a vibrant community.</p>
+            <p>Our server is designed for players who seek adventure and camaraderie. With regular updates and events, there's always something new to discover!</p>
         </section>
 
         <section class="features">
-            <h2 class="section-title">Why Choose LifeSky?</h2>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-dragon"></i>
-                    </div>
-                    <h4>Custom Textures</h4>
-                    <p>Exclusive resource pack with 150+ unique textures</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-shield-virus"></i>
-                    </div>
-                    <h4>Anti-Cheat Protection</h4>
-                    <p>Advanced cheat detection with 24/7 monitoring</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                    <h4>Instant Warps</h4>
-                    <p>Near-zero latency with our global servers</p>
-                </div>
+            <div class="feature-card">
+                <i class="fas fa-heartbeat"></i>
+                <h3>Unique Lifesteal System</h3>
+                <p>Custom coded heart mechanics with enhanced survival experience</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-cubes"></i>
+                <h3>Custom Textures</h3>
+                <p>Over 500+ custom modeled items and blocks</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Anti-Cheat Protection</h3>
+                <p>State-of-the-art security with 24/7 monitoring</p>
             </div>
         </section>
 
-        <section class="cta-section">
-            <div class="cta-content">
-                <h2>Ready to Join the Battle?</h2>
-                <p>Connect now using our server IP: <code>play.lifesky.fun</code></p>
-                <div class="server-ip">
-                    <input type="text" value="play.lifesky.fun" readonly>
-                    <button class="btn-copy">Copy</button>
-                </div>
-            </div>
+        <section class="community">
+            <h2>Join Our Community</h2>
+            <p>Connect with us on Discord and stay updated with the latest news and events!</p>
+            <a href="#" class="cta-button">Join Discord</a>
         </section>
     </main>
 
-    <!-- Universal Footer -->
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="policy.html">Privacy Policy</a></li>
-                    <li><a href="rules.html">Server Rules</a></li>
-                    <li><a href="support.html">Support Center</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Connect With Us</h4>
-                <div class="social-links">
-                    <a href="https://discord.gg/s2ghGe66S9"><i class="fab fa-discord"></i></a>
+                <h4>GlacierMC</h4>
+                <p>Experience survival like never before</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-discord"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
             <div class="footer-section">
-                <p>&copy; 2025 LifeSky Network. All rights reserved.</p>
-                <p>Made By Thekinggod</p>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="policy.html">Privacy Policy</a></li>
+                    <li><a href="rules.html">Server Rules</a></li>
+                    <li><a href="updates.html">Changelog</a></li>
+                </ul>
             </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="support.html">Help Center</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="shop.html">Store</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 GlacierMC. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
-</html> 
+</html>
